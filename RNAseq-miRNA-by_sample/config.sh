@@ -1,3 +1,4 @@
+```bash
 #!/bin/bash
 
 ############################################################
@@ -50,17 +51,17 @@ R_RESULTS_DIR="$RESULTS"
 REPORTS_DIR="$RESULTS/reports"
 
 ############################################################
-# VARIABLES EXCLUSIVAS PARA BOWTIE2 (Para evitar sobrescribir)
+# VARIABLES EXCLUSIVE TO BOWTIE2 (To avoid overwriting)
 ############################################################
-# Directorio y prefijo del índice de Bowtie2
+# Bowtie2 index directory and prefix
 BOWTIE2_INDEX_DIR="$RESULTS/index_bowtie2"
 BOWTIE2_INDEX="$BOWTIE2_INDEX_DIR/mature-${SPECIE}-DNA"
 
-# Directorios de salida aislados para el alineamiento y el conteo
+# Isolated output directories for alignment and counting
 ALIGN_DIR_BOWTIE2="$RESULTS/alig_bowtie2"
 COUNTS_DIR_BOWTIE2="$RESULTS/count_fc_bowtie2"
 
-# Hilos de procesamiento para Bowtie2
+# Processing threads for Bowtie2
 THREADS=32
 
 ############################################################
@@ -71,11 +72,11 @@ THREADS=32
 ############################################################
 # DESEQ2 CONTRASTS (Dynamic 2 vs 2)
 ############################################################
-# Añade, edita o elimina las líneas entre los paréntesis libremente.
+# Add, edit, or remove the lines inside the parentheses freely.
 #
-# Formato esperado: "NombreContraste,Columna,Numerador,Denominador"
-#   - Numerador   = LFC > 0 (Condición a evaluar / Tratada)
-#   - Denominador = LFC < 0 (Control / Baseline)
+# Expected format: "ContrastName,Column,Numerator,Denominator"
+#   - Numerator   = LFC > 0 (Condition being evaluated / Treated)
+#   - Denominator = LFC < 0 (Control / Baseline)
 
 CONTRASTES=(
     "DF.1P_uninfected_vs_DF.1_uninfected,sample,DF.1P_uninfected,DF.1_uninfected"
@@ -83,5 +84,26 @@ CONTRASTES=(
     "DF.1P_uninfected_vs_DF.1PC_uninfected,sample,DF.1P_uninfected,DF.1PC_uninfected"
 )
 
-# Empaqueta la lista en una sola variable exportable para que R pueda leerla
+# Package the list into a single exportable variable so that R can read it
 export DESEQ2_CONTRASTS=$(IFS=";"; echo "${CONTRASTES[*]}")
+```
+
+############################################################
+# DESEQ2 CONTRASTS (by status)
+############################################################
+
+#CONTRASTES=("Treatment_vs_Control,status,Treatment,Control")
+
+# For a comparison by sample, use the sample column as the
+# grouping variable. For example:
+# "DF.1P_vs_DF.1,sample,DF.1P,DF.1"
+#
+# This compares the levels "DF.1P" vs "DF.1" within the
+# variable/column "sample".
+#
+# If the desired comparison is specifically between two
+# sample groups, replace the values accordingly, e.g.:
+# "DF.1P_IBDV_vs_DF.1_IBDV,sample,DF.1P_IBDV,DF.1_IBDV"
+
+# export DESEQ2_CONTRASTS=$(IFS=";"; echo "${CONTRASTES[*]}")
+
