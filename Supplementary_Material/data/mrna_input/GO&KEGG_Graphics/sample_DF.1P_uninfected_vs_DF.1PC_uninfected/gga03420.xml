@@ -1,0 +1,288 @@
+<?xml version="1.0"?>
+<!DOCTYPE pathway SYSTEM "https://www.kegg.jp/kegg/xml/KGML_v0.7.2_.dtd">
+<!-- Creation date: Apr 6, 2023 16:50:38 +0900 (GMT+9) -->
+<pathway name="path:gga03420" org="gga" number="03420"
+         title="Nucleotide excision repair"
+         image="https://www.kegg.jp/kegg/pathway/gga/gga03420.png"
+         link="https://www.kegg.jp/kegg-bin/show_pathway?gga03420">
+    <entry id="120" name="gga:121108652" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:121108652">
+        <graphics name="GTF2H4" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="668" y="888" width="46" height="17"/>
+    </entry>
+    <entry id="121" name="gga:771837" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:771837">
+        <graphics name="GTF2H3" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="668" y="871" width="46" height="17"/>
+    </entry>
+    <entry id="122" name="gga:100858972" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:100858972">
+        <graphics name="GTF2H2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="668" y="854" width="46" height="17"/>
+    </entry>
+    <entry id="123" name="gga:423081" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:423081">
+        <graphics name="GTF2H1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="668" y="837" width="46" height="17"/>
+    </entry>
+    <entry id="124" name="ko:K10844" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K10844">
+        <graphics name="K10844" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="622" y="854" width="46" height="17"/>
+    </entry>
+    <entry id="125" name="gga:769754" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:769754">
+        <graphics name="GTF2H5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="622" y="871" width="46" height="17"/>
+    </entry>
+    <entry id="126" name="gga:424226" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:424226">
+        <graphics name="ERCC3" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="622" y="837" width="46" height="17"/>
+    </entry>
+    <entry id="127" name="gga:427328" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:427328">
+        <graphics name="CCNH" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="576" y="871" width="46" height="17"/>
+    </entry>
+    <entry id="128" name="gga:423521" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:423521">
+        <graphics name="MNAT1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="576" y="854" width="46" height="17"/>
+    </entry>
+    <entry id="129" name="gga:771294" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:771294">
+        <graphics name="CDK7" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="576" y="837" width="46" height="17"/>
+    </entry>
+    <entry id="130" name="gga:374050" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:374050">
+        <graphics name="DDB1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="983" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="131" name="gga:418744 gga:422364" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:418744+gga:422364">
+        <graphics name="CUL4A..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="983" y="288" width="46" height="17"/>
+    </entry>
+    <entry id="132" name="gga:418001" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:418001">
+        <graphics name="RBX1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="983" y="271" width="46" height="17"/>
+    </entry>
+    <entry id="133" name="path:gga03020" type="map"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga03020">
+        <graphics name="RNA polymerase" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="1125" y="238" width="102" height="25"/>
+    </entry>
+    <entry id="135" name="ko:K03702" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K03702">
+        <graphics name="K03702" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="140" y="256" width="46" height="17"/>
+    </entry>
+    <entry id="136" name="ko:K03701" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K03701">
+        <graphics name="K03701" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="140" y="239" width="46" height="17"/>
+    </entry>
+    <entry id="137" name="ko:K01972" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K01972">
+        <graphics name="K01972" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="272" y="899" width="46" height="17"/>
+    </entry>
+    <entry id="138" name="ko:K02335" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K02335">
+        <graphics name="K02335" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="272" y="779" width="46" height="17"/>
+    </entry>
+    <entry id="139" name="gga:423521" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:423521">
+        <graphics name="MNAT1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="766" y="480" width="46" height="17"/>
+    </entry>
+    <entry id="140" name="ko:K03701" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K03701">
+        <graphics name="K03701" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="393" y="338" width="46" height="17"/>
+    </entry>
+    <entry id="141" name="gga:430516" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:430516">
+        <graphics name="LIG1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="885" y="899" width="46" height="17"/>
+    </entry>
+    <entry id="142" name="gga:100859719 gga:396542 gga:418907 gga:422788 gga:424958" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:100859719+gga:396542+gga:418907+gga:422788+gga:424958">
+        <graphics name="RFC5..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="853" y="779" width="46" height="17"/>
+    </entry>
+    <entry id="143" name="gga:373984" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:373984">
+        <graphics name="PCNA" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="853" y="756" width="46" height="17"/>
+    </entry>
+    <entry id="144" name="ko:K03657" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K03657">
+        <graphics name="K03657" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="272" y="756" width="46" height="17"/>
+    </entry>
+    <entry id="145" name="gga:107055326 gga:416997 gga:417275 gga:423567" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:107055326+gga:416997+gga:417275+gga:423567">
+        <graphics name="POLE4..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="798" y="779" width="46" height="17"/>
+    </entry>
+    <entry id="146" name="gga:416420" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:416420">
+        <graphics name="ERCC4, XPF" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="852" y="611" width="46" height="17"/>
+    </entry>
+    <entry id="147" name="gga:428019" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:428019">
+        <graphics name="ERCC5, XPG" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="983" y="463" width="46" height="17"/>
+    </entry>
+    <entry id="148" name="gga:107057377 gga:419053" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:107057377+gga:419053">
+        <graphics name="POLD2..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="798" y="756" width="46" height="17"/>
+    </entry>
+    <entry id="149" name="gga:417563 gga:419566 gga:420578" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:417563+gga:419566+gga:420578">
+        <graphics name="RPA1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1038" y="480" width="46" height="17"/>
+    </entry>
+    <entry id="150" name="gga:121108652" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:121108652">
+        <graphics name="GTF2H4" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="858" y="514" width="46" height="17"/>
+    </entry>
+    <entry id="151" name="ko:K10849" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K10849">
+        <graphics name="K10849" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="852" y="628" width="46" height="17"/>
+    </entry>
+    <entry id="152" name="gga:395659" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:395659">
+        <graphics name="XPA, XPAC" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1038" y="463" width="46" height="17"/>
+    </entry>
+    <entry id="153" name="gga:771837" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:771837">
+        <graphics name="GTF2H3" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="858" y="497" width="46" height="17"/>
+    </entry>
+    <entry id="154" name="gga:100858972" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:100858972">
+        <graphics name="GTF2H2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="858" y="480" width="46" height="17"/>
+    </entry>
+    <entry id="155" name="gga:769754" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:769754">
+        <graphics name="GTF2H5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="812" y="497" width="46" height="17"/>
+    </entry>
+    <entry id="156" name="ko:K03702" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K03702">
+        <graphics name="K03702" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="393" y="355" width="46" height="17"/>
+    </entry>
+    <entry id="157" name="gga:423185" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:423185">
+        <graphics name="DDB2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="744" y="322" width="46" height="17"/>
+    </entry>
+    <entry id="158" name="gga:374050" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:374050">
+        <graphics name="DDB1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="744" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="159" name="gga:418744 gga:422364" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:418744+gga:422364">
+        <graphics name="CUL4A..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="744" y="288" width="46" height="17"/>
+    </entry>
+    <entry id="160" name="gga:418001" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:418001">
+        <graphics name="RBX1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="744" y="271" width="46" height="17"/>
+    </entry>
+    <entry id="161" name="ko:K03723" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K03723">
+        <graphics name="K03723" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="393" y="239" width="46" height="17"/>
+    </entry>
+    <entry id="162" name="path:gga04120" type="map"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga04120">
+        <graphics name="Ubiquitin mediated proteolysis" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="895" y="352" width="130" height="34"/>
+    </entry>
+    <entry id="163" name="gga:424226" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:424226">
+        <graphics name="ERCC3" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="812" y="463" width="46" height="17"/>
+    </entry>
+    <entry id="164" name="gga:422303" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:422303">
+        <graphics name="CETN1, CETN2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="836" y="305" width="46" height="17"/>
+    </entry>
+    <entry id="165" name="gga:423081" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:423081">
+        <graphics name="GTF2H1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="858" y="463" width="46" height="17"/>
+    </entry>
+    <entry id="166" name="gga:100859241 gga:431623" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:100859241+gga:431623">
+        <graphics name="RAD23A..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="836" y="288" width="46" height="17"/>
+    </entry>
+    <entry id="167" name="gga:427153" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:427153">
+        <graphics name="ERCC8" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="983" y="322" width="46" height="17"/>
+    </entry>
+    <entry id="168" name="ko:K10844" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K10844">
+        <graphics name="K10844" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="812" y="480" width="46" height="17"/>
+    </entry>
+    <entry id="169" name="gga:423785" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:423785">
+        <graphics name="ERCC6" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1038" y="271" width="46" height="17"/>
+    </entry>
+    <entry id="170" name="gga:416039" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:416039">
+        <graphics name="XPC" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="836" y="271" width="46" height="17"/>
+    </entry>
+    <entry id="171" name="gga:427328" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:427328">
+        <graphics name="CCNH" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="766" y="497" width="46" height="17"/>
+    </entry>
+    <entry id="172" name="ko:K03703" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K03703">
+        <graphics name="K03703" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="272" y="628" width="46" height="17"/>
+    </entry>
+    <entry id="173" name="gga:771294" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:771294">
+        <graphics name="CDK7" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="766" y="463" width="46" height="17"/>
+    </entry>
+    <entry id="174" name="path:gga03420" type="map"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga03420">
+        <graphics name="TITLE:Nucleotide excision repair" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="161" y="58" width="242" height="25"/>
+    </entry>
+    <entry id="683" name="gga:107049063 gga:112529926 gga:121108863 gga:395486 gga:415635 gga:420103 gga:422621 gga:424754 gga:424954 gga:426289 gga:770704" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:107049063+gga:112529926+gga:121108863+gga:395486+gga:415635+gga:420103+gga:422621+gga:424754+gga:424954+gga:426289+gga:770704">
+        <graphics name="POLR2J..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1093" y="288" width="46" height="17"/>
+    </entry>
+    <entry id="684" name="gga:422903" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?gga:422903">
+        <graphics name="UVSSA" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1038" y="322" width="46" height="17"/>
+    </entry>
+</pathway>
