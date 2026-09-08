@@ -32,8 +32,6 @@ miRBase reference → Subread index/alignment → featureCounts
     → DESeq2 + miRDB targets + GO/KEGG integration → HTML reports
 ```
 
-<img width="1394" height="643" alt="Captura de pantalla 2026-09-08 a las 16 49 39" src="https://github.com/user-attachments/assets/b2d6d133-4362-4911-94a5-ad0e16c53fa2" />
-
 ## Structure
 
 ```
